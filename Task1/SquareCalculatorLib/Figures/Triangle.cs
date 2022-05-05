@@ -1,6 +1,6 @@
 ﻿namespace SquareCalculatorLib.Figures
 {
-    public class Triangle : ISquare
+    public class Triangle : IFigure
     {
         public double SideA { get; set; }
         public double SideB { get; set; }
@@ -11,6 +11,11 @@
             {
                 return IsRectangular();
             }
+        }
+
+        public double Perimeter()
+        {
+            return Math.Round(SideA + SideB + SideC, 2);
         }
 
         public double Square()

@@ -1,7 +1,8 @@
 ﻿namespace SquareCalculatorLib.Figures
 {
-    internal interface ISquare
+    internal interface IFigure
     {
         public double Square();
+        public double Perimeter();
     }
 }
