@@ -1,0 +1,19 @@
+﻿# Visual Studio 2015/2017 cache/options directory
+*.vs/
+*.cache
+*.dtbcache
+_ReSharper.*
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+
+.vs/config/applicationhost.config
