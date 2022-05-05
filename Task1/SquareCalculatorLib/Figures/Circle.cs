@@ -1,6 +1,6 @@
 ﻿namespace SquareCalculatorLib.Figures
 {
-    public class Circle
+    public class Circle: ISquare
     {
         public double Radius { get; set; }
 
